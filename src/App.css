@@ -1,0 +1,81 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 0 20px;
+  font-size: 24px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input > input {
+  margin-bottom: 10px;
+}
+
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.TodoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.TodoBody {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.TodoButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.DeleteButton {
+  color: red;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.DoneButton {
+  color: green;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.CancelButton {
+  color: blue;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
